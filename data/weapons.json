@@ -53,9 +53,7 @@
     "route": "B",
     "detailedLocation": "Use the Scanner in the desert dunes near a broken-down bus.",
     "extraDetails": "Equip the Scanner Pod Program and walk near the rocky central desert area. When the Scanner starts beeping faster, search the sand for a buried item. The Phoenix Dagger is not visible otherwise. Best done as 9S in Route B."
-  }
-]
-,
+  },
   {
     "name": "Iron Pipe",
     "type": "Short Sword",
@@ -110,8 +108,7 @@
     "route": "C",
     "detailedLocation": "Inside a hidden chest near conveyor belts on 2nd visit.",
     "extraDetails": "Return to the Abandoned Factory during Route C. Take the right fork near the conveyor belts (early area), and look for a hidden chest behind a movable box. You’ll find the Engine Blade (a FF15 crossover weapon)."
-  }
-,
+  },
   {
     "name": "Virtuous Treaty",
     "type": "Large Sword",
