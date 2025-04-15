@@ -13,3 +13,5 @@ nav a:hover { text-decoration: underline; }
 .weapon input[type='checkbox'] { margin-right: 0.5rem; }
 .weapon .details { display: none; margin-top: 0.5rem; font-size: 0.9rem; color: #aaa; }
 .weapon.expanded .details { display: block; }
+.weapon *,
+.weapon .details { color: white !important; }
