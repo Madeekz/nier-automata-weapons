@@ -251,5 +251,94 @@
     "route": "A",
     "detailedLocation": "Can be purchased after unlocking the vendor's inventory.",
     "extraDetails": "To acquire the Emil Heads, progress through the main story to unlock the vendor's shop at the Resistance Camp. Once unlocked, check the vendor's inventory for this item. It will cost around 10,000 G and can be purchased after completing certain story sections."
+  },
+  {
+    "name": "Lance",
+    "type": "Spear",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Found in the Abandoned Factory.",
+    "route": "A",
+    "detailedLocation": "Near the conveyor belts in the Abandoned Factory.",
+    "extraDetails": "During Route A, visit the Abandoned Factory and head to the second area where you encounter conveyor belts. The Lance can be found in a chest hidden behind some obstacles, so keep an eye out while exploring."
+  },
+  {
+    "name": "Phoenix Lance",
+    "type": "Spear",
+    "missable": false,
+    "scanner": true,
+    "quest": null,
+    "location": "Buried in the Desert Zone.",
+    "route": "B",
+    "detailedLocation": "Use the Scanner near the large rocks in the Desert Zone.",
+    "extraDetails": "Equip the Scanner Pod Program and head to the Desert Zone. The Phoenix Lance is buried beneath the sand near a group of large rocks. The Scanner will beep faster when you're close, so start digging once you hear the signal."
+  },
+  {
+    "name": "Virtuous Lance",
+    "type": "Spear",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "2B's default spear at the start of the game.",
+    "route": "A",
+    "detailedLocation": "Equipped by default when 2B uses the spear weapon set.",
+    "extraDetails": "The Virtuous Lance is automatically equipped to 2B at the start of the game when you switch to the spear weapon set. You don't need to collect it manually; simply choose the spear set, and the weapon will be in your inventory."
+  },
+  {
+    "name": "Beast Spear",
+    "type": "Spear",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Bought from the Weapon Dealer in the Resistance Camp.",
+    "route": "A",
+    "detailedLocation": "Available for purchase after completing the Weapon Dealer’s quest.",
+    "extraDetails": "Complete the Weapon Dealer's fetch quest early in Route A. After unlocking his shop, Beast Spear becomes available for 10,000 G. Be sure to check his shop after major story events if it doesn't appear immediately."
+  },
+  {
+    "name": "Machine Spear",
+    "type": "Spear",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Buy from Pascal in his village.",
+    "route": "A",
+    "detailedLocation": "Available after first visit to Pascal’s Village.",
+    "extraDetails": "During Route A, visit Pascal’s Village after your first conversation with Pascal. His shop will become available inside the central house. The Machine Spear costs around 10,000 G. If it’s not available, check again after completing more story missions."
+  },
+  {
+    "name": "Type-40 Spear",
+    "type": "Spear",
+    "missable": false,
+    "scanner": false,
+    "quest": "YoRHa Betrayers",
+    "location": "Reward for completing the 'YoRHa Betrayers' quest.",
+    "route": "A",
+    "detailedLocation": "Given by Anemone after completing the quest.",
+    "extraDetails": "After accepting the 'YoRHa Betrayers' quest from Anemone at the Resistance Camp, track down and defeat the rogue YoRHa units. After completing the quest, Anemone will reward you with the Type-40 Spear."
+  },
+  {
+    "name": "Type-3 Spear",
+    "type": "Spear",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Buy from Devola and Popola in the Resistance Camp.",
+    "route": "C",
+    "detailedLocation": "Available late in the game after meeting Devola and Popola.",
+    "extraDetails": "In Route C, Devola and Popola will open a shop near the Resistance Camp. After certain story events, check their shop for the Type-3 Spear. It becomes available as you progress further into the route."
+  },
+  {
+    "name": "Engine Spear",
+    "type": "Spear",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Found in the Abandoned Factory during Route C.",
+    "route": "C",
+    "detailedLocation": "Near a hidden chest on the second visit to the factory.",
+    "extraDetails": "During Route C, return to the Abandoned Factory. Look for a hidden chest near the conveyor belts area. You’ll need to move a box to reveal it, and inside you'll find the Engine Spear, a special weapon from the FF15 crossover."
   }
 ]
+
