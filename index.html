@@ -1,1 +1,48 @@
-<!DOCTYPE html><html><head><title>Game Select</title></head><body><h1>Select a Game</h1><a href='nier-automata.html'><img src='img/nier-automata.jpg' alt='NieR: Automata' /></a></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select a Game</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; background: #111; color: white; }
+    img { max-width: 300px; cursor: pointer; border: 2px solid white; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Select a Game</h1>
+  <a href="nier-automata.html">
+    <img src="img/nier-automata.jpg" alt="NieR: Automata">
+    <p>NieR: Automata</p>
+  </a>
+</body>
+</html>
+
+<!-- nier-automata.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NieR: Automata Weapon Checklist</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>NieR: Automata – Weapon Checklist</h1>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search weapons..." />
+      <select id="typeFilter">
+        <option value="all">All Types</option>
+        <option value="Short Sword">Short Sword</option>
+        <option value="Large Sword">Large Sword</option>
+        <option value="Spear">Spear</option>
+        <option value="Combat Bracers">Combat Bracers</option>
+      </select>
+      <button onclick="toggleView()">🔁 Toggle View</button>
+    </div>
+  </header>
+  <main id="weaponList" class="list-view"></main>
+  <script src="js/script.js"></script>
+</body>
+</html>
