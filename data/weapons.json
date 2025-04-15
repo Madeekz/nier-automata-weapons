@@ -163,6 +163,93 @@
     "route": "B",
     "detailedLocation": "Use Scanner near rock cliffs in the desert.",
     "extraDetails": "Equip the Scanner and head toward the large rock cliffs in the Desert Zone. You’ll hear faster beeping when nearby. Use the Scanner repeatedly near the waterfall basin to reveal this buried weapon."
+  },
+  {
+    "name": "Cypress Stick",
+    "type": "Short Sword",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Found in a chest near the Forest Castle Gate.",
+    "route": "A",
+    "detailedLocation": "Requires jumping on multiple pillars to reach the chest.",
+    "extraDetails": "To obtain the Cypress Stick, travel to the Forest Zone and locate the Forest Castle Gate. There are several pillars near the entrance. You must jump across them to reach a platform with a chest containing the weapon. The chest is hidden amongst the foliage and may take a few attempts to reach."
+  },
+  {
+    "name": "Iron Pipe",
+    "type": "Short Sword",
+    "missable": true,
+    "scanner": false,
+    "quest": null,
+    "location": "Found in the sewer tunnel between City Ruins and Amusement Park.",
+    "route": "A",
+    "detailedLocation": "In a pile of garbage inside the sewer tunnel near a ladder.",
+    "extraDetails": "Head to the sewer tunnel connecting the City Ruins to the Amusement Park. Once inside, drop down a long ladder and look to the side where a pile of garbage is located. The Iron Pipe will glow faintly in the debris. Be sure to grab it before progressing too far through the area, as it is missable."
+  },
+  {
+    "name": "Type-40 Fists",
+    "type": "Combat Bracer",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Available from the Resistance Camp vendor.",
+    "route": "A",
+    "detailedLocation": "Can be purchased after unlocking the vendor's inventory.",
+    "extraDetails": "To obtain the Type-40 Fists, you must visit the Resistance Camp and complete the necessary main quests. Once you have unlocked the vendor's inventory, head to the shop and purchase the weapon. It costs around 10,000 G and is available early in the game."
+  },
+  {
+    "name": "Type-3 Fists",
+    "type": "Combat Bracer",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Available from Devola and Popola in the Resistance Camp.",
+    "route": "C",
+    "detailedLocation": "Becomes available late in the game from Devola & Popola.",
+    "extraDetails": "During Route C, you will encounter Devola and Popola in the Resistance Camp. After completing certain main story quests, they will open their shop where you can purchase the Type-3 Fists. Check their inventory after each major mission as weapons become available depending on story progression."
+  },
+  {
+    "name": "Virtuous Grief",
+    "type": "Combat Bracer",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Available from the Resistance Camp vendor.",
+    "route": "A",
+    "detailedLocation": "Can be purchased after unlocking the vendor's inventory.",
+    "extraDetails": "The Virtuous Grief is available for purchase from the vendor at the Resistance Camp. To unlock the vendor's inventory, you will need to progress through the early main story missions. Once unlocked, visit the Resistance Camp and check the vendor's shop for this powerful combat bracer."
+  },
+  {
+    "name": "Cruel Lament",
+    "type": "Combat Bracer",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Available from the Resistance Camp vendor.",
+    "route": "A",
+    "detailedLocation": "Can be purchased after unlocking the vendor's inventory.",
+    "extraDetails": "To acquire the Cruel Lament, visit the Resistance Camp after completing the main quests that unlock the vendor's shop. Once unlocked, head to the vendor and purchase it. The price is around 15,000 G, and it is available later in the game after progressing through various story events."
+  },
+  {
+    "name": "Machine Heads",
+    "type": "Combat Bracer",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Available from Pascal in his village.",
+    "route": "A",
+    "detailedLocation": "Can be purchased after visiting Pascal's village.",
+    "extraDetails": "During Route A, after meeting Pascal in his village, you will gain access to his shop. You can purchase the Machine Heads from Pascal once you’ve progressed through the story and unlocked his inventory. Check Pascal's shop after visiting his village to buy this weapon."
+  },
+  {
+    "name": "Emil Heads",
+    "type": "Combat Bracer",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Available from the Resistance Camp vendor.",
+    "route": "A",
+    "detailedLocation": "Can be purchased after unlocking the vendor's inventory.",
+    "extraDetails": "To acquire the Emil Heads, progress through the main story to unlock the vendor's shop at the Resistance Camp. Once unlocked, check the vendor's inventory for this item. It will cost around 10,000 G and can be purchased after completing certain story sections."
   }
 ]
-
