@@ -339,6 +339,116 @@
     "route": "C",
     "detailedLocation": "Near a hidden chest on the second visit to the factory.",
     "extraDetails": "During Route C, return to the Abandoned Factory. Look for a hidden chest near the conveyor belts area. You’ll need to move a box to reveal it, and inside you'll find the Engine Spear, a special weapon from the FF15 crossover."
+  },
+  {
+    "name": "Fang of the Twins",
+    "type": "Short Sword",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Found in the Forest Zone near a waterfall.",
+    "route": "A",
+    "detailedLocation": "In the Forest Zone, near a waterfall and a large tree trunk. The chest is behind the waterfall.",
+    "extraDetails": "Travel to the Forest Zone entrance. From the broken bridge, drop down into the waterfall area. Behind the waterfall is a small hidden path leading to a chest containing this weapon."
+  },
+  {
+    "name": "Faith",
+    "type": "Short Sword",
+    "missable": true,
+    "scanner": false,
+    "quest": "Retrieve the Confidential Intel",
+    "location": "Reward for completing the terminal hacking quest during Route C.",
+    "route": "C",
+    "detailedLocation": "Obtained by completing the quest 'Retrieve the Confidential Intel' in the Flooded City.",
+    "extraDetails": "Begin the quest from the Resistance Camp in Route C. Head to the Flooded City, hack a terminal, and defeat enemy waves. You'll receive Faith as a reward. Missable if the quest is skipped."
+  },
+  {
+    "name": "Dragoon Lance",
+    "type": "Spear",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Hidden in the Forest Zone near a destroyed bridge.",
+    "route": "A",
+    "detailedLocation": "At the edge of the Forest Castle bridge ruins, drop to a platform below.",
+    "extraDetails": "Go to the broken bridge in the Forest Castle zone. Carefully drop down to a narrow platform. A chest at the far end contains this weapon. Use double jump + dash to reach it safely."
+  },
+  {
+    "name": "Spear of the Usurper",
+    "type": "Spear",
+    "missable": false,
+    "scanner": false,
+    "quest": "The Weapon Dealer’s Revenge",
+    "location": "Reward for completing a side quest from the Weapon Dealer.",
+    "route": "A",
+    "detailedLocation": "Available after doing multiple fetch quests for the Resistance Weapon Dealer.",
+    "extraDetails": "Talk to the Weapon Dealer in the Resistance Camp. Complete his upgrade quests, then return after progressing the story. The final part gives you this spear as a reward."
+  },
+  {
+    "name": "Beastcurse",
+    "type": "Combat Bracer",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Found in the Flooded City inside a chest.",
+    "route": "B",
+    "detailedLocation": "Look for a building top platform in the Flooded City during Route B.",
+    "extraDetails": "Using 9S, explore the rooftops in the Flooded City. The chest containing Beastcurse is on a small roof area only reachable by hopping across platforms or gliding from above."
+  },
+  {
+    "name": "Cruel Arrogance",
+    "type": "Large Sword",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Found in the Flooded City on a platform above the water.",
+    "route": "B",
+    "detailedLocation": "During Route B, use 9S to hack open a locked chest on a high platform near the edge of the water.",
+    "extraDetails": "Explore the far edge of the Flooded City. There's a platform that's hard to reach without double jump + dash. The chest requires hacking, so only 9S can open it. Inside is Cruel Arrogance."
+  },
+  {
+    "name": "Faith (second location)",
+    "type": "Short Sword",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Found in the Soul Box (Tower area).",
+    "route": "C",
+    "detailedLocation": "Inside the Tower, in one of the hacking sequences with 9S.",
+    "extraDetails": "While progressing through the Tower in Route C, 9S will enter an area called Soul Box. A chest in this hacking sequence contains a second copy of Faith. This one is not missable."
+  },
+  {
+    "name": "Iron Pipe (Emil variant)",
+    "type": "Short Sword",
+    "missable": true,
+    "scanner": false,
+    "quest": "Emil’s Memories",
+    "location": "Found in Emil’s house during his side quest.",
+    "route": "C",
+    "detailedLocation": "Only available during Emil’s final side quest, inside his underground home.",
+    "extraDetails": "Complete Emil’s shop encounters and follow his route to trigger 'Emil’s Memories'. At the end, you’ll enter his home and find a unique version of the Iron Pipe. Missable if you don’t complete the quest."
+  },
+  {
+    "name": "YoRHa-issue Blade",
+    "type": "Large Sword",
+    "missable": false,
+    "scanner": false,
+    "quest": "3C3C1D119440927 DLC",
+    "location": "Reward from DLC colosseum.",
+    "route": "Any",
+    "detailedLocation": "Given as a reward for completing the Desert Colosseum trials.",
+    "extraDetails": "You must own the 3C3C1D119440927 DLC. Beat the Desert Colosseum trials with 2B to earn this weapon. It cannot be obtained otherwise."
+  },
+  {
+    "name": "Reckless Bravery",
+    "type": "Combat Bracer",
+    "missable": false,
+    "scanner": false,
+    "quest": "3C3C1D119440927 DLC",
+    "location": "Reward from DLC colosseum.",
+    "route": "Any",
+    "detailedLocation": "Given for completing the Forest Colosseum with 9S.",
+    "extraDetails": "This is a reward for DLC owners. Use 9S in the Forest Colosseum challenge. The final fight grants the Reckless Bravery combat bracer."
   }
 ]
 
