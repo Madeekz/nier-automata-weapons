@@ -111,4 +111,61 @@
     "detailedLocation": "Inside a hidden chest near conveyor belts on 2nd visit.",
     "extraDetails": "Return to the Abandoned Factory during Route C. Take the right fork near the conveyor belts (early area), and look for a hidden chest behind a movable box. You’ll find the Engine Blade (a FF15 crossover weapon)."
   }
+,
+  {
+    "name": "Virtuous Treaty",
+    "type": "Large Sword",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "2B's default large sword at game start.",
+    "route": "A",
+    "detailedLocation": "Equipped by default when 2B switches to large sword.",
+    "extraDetails": "You don’t need to collect this weapon manually. Simply switch 2B’s active weapon set to include heavy attacks, and Virtuous Treaty will appear. It's present from the beginning and cannot be missed."
+  },
+  {
+    "name": "Cruel Blood Oath",
+    "type": "Large Sword",
+    "missable": true,
+    "scanner": false,
+    "quest": null,
+    "location": "Starts equipped on 9S in Route B.",
+    "route": "B",
+    "detailedLocation": "Given at the beginning of Route B.",
+    "extraDetails": "Just like 2B’s large sword, this one is available only when you begin Route B as 9S. Equip it before progressing too far, and don’t discard it. It’s exclusive to Route B and may not appear in Route C depending on your path."
+  },
+  {
+    "name": "Beastlord",
+    "type": "Large Sword",
+    "missable": false,
+    "scanner": false,
+    "quest": null,
+    "location": "Buy from Resistance Camp weapon trader.",
+    "route": "A",
+    "detailedLocation": "Available after unlocking the Weapon Trader’s inventory.",
+    "extraDetails": "Complete the Weapon Trader’s quest and progress through Route A. Beastlord becomes available for purchase after you access the Flooded City or Amusement Park sections. Costs around 15,000 G."
+  },
+  {
+    "name": "Iron Will",
+    "type": "Large Sword",
+    "missable": false,
+    "scanner": false,
+    "quest": "Retrieve the Confidential Intel",
+    "location": "Found near the coast in the Flooded City.",
+    "route": "C",
+    "detailedLocation": "Part of a side quest involving data retrieval.",
+    "extraDetails": "Start the quest 'Retrieve the Confidential Intel' in Route C, which becomes available from the Resistance Camp. Go to the Flooded City and follow the quest markers. The weapon is found inside a chest at the quest’s end."
+  },
+  {
+    "name": "Phoenix Sword",
+    "type": "Large Sword",
+    "missable": false,
+    "scanner": true,
+    "quest": null,
+    "location": "Buried near a waterfall in the Desert Zone.",
+    "route": "B",
+    "detailedLocation": "Use Scanner near rock cliffs in the desert.",
+    "extraDetails": "Equip the Scanner and head toward the large rock cliffs in the Desert Zone. You’ll hear faster beeping when nearby. Use the Scanner repeatedly near the waterfall basin to reveal this buried weapon."
+  }
 ]
+
