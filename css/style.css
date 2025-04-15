@@ -1,8 +1,15 @@
+<!-- css/style.css -->
 body { font-family: Arial; margin: 0; padding: 1rem; background: #1a1a1a; color: #eee; }
 h1 { text-align: center; }
+nav { text-align: center; margin: 1rem; }
+nav a { color: #ccc; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
 .controls { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 1rem 0; }
 #weaponList.list-view .weapon { background: #2a2a2a; padding: 1rem; margin: 0.5rem 0; border: 1px solid #444; }
 #weaponList.grid-view { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1rem; }
-.weapon { background: #2a2a2a; padding: 1rem; border-radius: 5px; border: 1px solid #444; }
-.weapon button { margin-top: 0.5rem; display: block; background: #444; color: white; border: none; padding: 0.5rem; border-radius: 4px; cursor: pointer; }
+.weapon { background: #2a2a2a; padding: 1rem; border-radius: 5px; border: 1px solid #444; position: relative; }
+.weapon button, .weapon label { margin-top: 0.5rem; display: block; background: #444; color: white; border: none; padding: 0.5rem; border-radius: 4px; cursor: pointer; text-align: left; }
 .weapon button:hover { background: #666; }
+.weapon input[type='checkbox'] { margin-right: 0.5rem; }
+.weapon .details { display: none; margin-top: 0.5rem; font-size: 0.9rem; color: #aaa; }
+.weapon.expanded .details { display: block; }
