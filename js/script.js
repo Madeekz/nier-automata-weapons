@@ -49,9 +49,10 @@ function render() {
       `;
 
       listEl.appendChild(div);
-      updateProgress();
+      
 
     });
+  updateProgress();
 }
 
 // Speichere Abhaken-Status
