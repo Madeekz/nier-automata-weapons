@@ -49,6 +49,8 @@ function render() {
       `;
 
       listEl.appendChild(div);
+      updateProgress();
+
     });
 }
 
@@ -73,4 +75,12 @@ function toggleDetails(button) {
 function toggleView() {
   listEl.classList.toggle('grid-view');
   listEl.classList.toggle('list-view');
+}
+function updateProgress() {
+  const collected = weapons.filter(w => isCollected(w.name)).length;
+  const total = weapons.length;
+  const percent = Math.round((collected / total) * 100);
+
+  document.getElementById("progressText").textContent = `${collected} / ${total} Weapons collected (${percent}%)`;
+  document.getElementById("progressBar").style.width = `${percent}%`;
 }
