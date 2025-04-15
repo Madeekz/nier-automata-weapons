@@ -8,10 +8,19 @@
 </head>
 <body>
   <header>
+    
+    <section class="progress-container">
+  <div id="progressText">Loading progress...</div>
+  <div class="progress-bar-bg">
+    <div id="progressBar" class="progress-bar-fill"></div>
+  </div>
+</section>
+
     <h1>NieR: Automata – Weapon Checklist</h1>
     <nav><a href="index.html">⬅ Back to Game Selection</a></nav>
     <div class="controls">
       <input type="text" id="search" placeholder="Search weapons..." />
+      
       <select id="typeFilter">
         <option value="all">All Types</option>
         <option value="Short Sword">Short Sword</option>
@@ -19,6 +28,7 @@
         <option value="Spear">Spear</option>
         <option value="Combat Bracer">Combat Bracer</option>
       </select>
+      
       <select id="routeFilter">
         <option value="all">All Routes</option>
         <option value="A">Route A</option>
