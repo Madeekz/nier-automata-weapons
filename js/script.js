@@ -8,8 +8,9 @@ fetch('data/weapons.json')
   .then(data => {
     weapons = data;
     render();
+    updateProgress();
   }
-       updateProgress();
+       
        );
 
 // Event Listener für Filter & Suche
