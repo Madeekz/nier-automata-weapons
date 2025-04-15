@@ -8,7 +8,9 @@ fetch('data/weapons.json')
   .then(data => {
     weapons = data;
     render();
-  });
+  }
+       updateProgress();
+       );
 
 // Event Listener für Filter & Suche
 document.getElementById('search').addEventListener('input', render);
