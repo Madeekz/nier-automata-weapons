@@ -53,10 +53,6 @@ nav a:hover {
   color: white;
 }
 
-.weapon * {
-  color: white;
-}
-
 .weapon .missable {
   color: red !important;
 }
