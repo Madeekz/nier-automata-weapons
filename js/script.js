@@ -89,3 +89,18 @@ function updateProgress() {
   document.getElementById("progressText").textContent = `${collected} / ${total} Weapons collected (${percent}%)`;
   document.getElementById("progressBar").style.width = `${percent}%`;
 }
+function showTab(id) {
+  document.querySelectorAll('.tab-content').forEach(tab => {
+    tab.classList.remove('active');
+    tab.style.display = 'none';
+  });
+
+  const activeTab = document.getElementById('tab-' + id);
+  if (activeTab) {
+    activeTab.classList.add('active');
+    activeTab.style.display = 'block';
+  }
+}
+
+// Standardmäßig „Weapons“-Tab anzeigen
+showTab('weapons');
