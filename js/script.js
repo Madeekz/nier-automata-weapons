@@ -55,7 +55,7 @@ function render() {
       
 
     });
-  
+  updateProgress();
 }
 
 // Speichere Abhaken-Status
