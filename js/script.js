@@ -39,7 +39,8 @@ function render() {
       div.innerHTML = `
         <label>
           <input type="checkbox" ${isCollected(w.name) ? 'checked' : ''} 
-                 onchange="toggleCollected('${w.name}', this.checked)">
+          onchange='toggleCollected("${w.name}", this.checked)'>
+
           ${w.name}
         </label>
         <div><em>Type:</em> ${w.type}</div>
