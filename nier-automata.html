@@ -2,25 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NieR: Automata Weapon Checklist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NieR: Automata Companion</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    
-    <section class="progress-container">
-  <div id="progressText">Loading progress...</div>
-  <div class="progress-bar-bg">
-    <div id="progressBar" class="progress-bar-fill"></div>
-  </div>
-</section>
 
-    <h1>NieR: Automata – Weapon Checklist</h1>
-    <nav><a href="index.html">⬅ Back to Game Selection</a></nav>
+  <header>
+    <h1>NieR: Automata – Companion Hub</h1>
+    <nav>
+      <button onclick="showTab('weapons')">Weapons</button>
+      <button onclick="showTab('pods')">Pods</button>
+      <button onclick="showTab('chips')">Pod Chips</button>
+      <button onclick="showTab('quests')">Quests</button>
+      <button onclick="showTab('endings')">Endings</button>
+    </nav>
+  </header>
+
+  <!-- Fortschritt -->
+  <section class="progress-container">
+    <div id="progressText">Loading progress...</div>
+    <div class="progress-bar-bg">
+      <div id="progressBar" class="progress-bar-fill"></div>
+    </div>
+  </section>
+
+  <!-- Tabs -->
+  <section id="tab-weapons" class="tab-content">
     <div class="controls">
       <input type="text" id="search" placeholder="Search weapons..." />
-      
       <select id="typeFilter">
         <option value="all">All Types</option>
         <option value="Short Sword">Short Sword</option>
@@ -28,18 +38,38 @@
         <option value="Spear">Spear</option>
         <option value="Combat Bracer">Combat Bracer</option>
       </select>
-      
       <select id="routeFilter">
         <option value="all">All Routes</option>
         <option value="A">Route A</option>
         <option value="B">Route B</option>
         <option value="C">Route C</option>
       </select>
-      <button onclick="toggleView()">🔁 Toggle View</button>
-      <label><input type="checkbox" id="hideCollected"> Hide Collected</label>
+      <label>
+        <input type="checkbox" id="hideCollected" />
+        Hide Collected
+      </label>
     </div>
-  </header>
-  <main id="weaponList" class="list-view"></main>
+
+    <div id="weaponList" class="list-view"></div>
+  </section>
+
+  <!-- Weitere Tabs -->
+  <section id="tab-pods" class="tab-content" style="display:none;">
+    <p>Pod data coming soon...</p>
+  </section>
+
+  <section id="tab-chips" class="tab-content" style="display:none;">
+    <p>Pod Chips checklist coming soon...</p>
+  </section>
+
+  <section id="tab-quests" class="tab-content" style="display:none;">
+    <p>Quest overview coming soon...</p>
+  </section>
+
+  <section id="tab-endings" class="tab-content" style="display:none;">
+    <p>Ending list coming soon...</p>
+  </section>
+
   <script src="js/script.js"></script>
 </body>
 </html>
